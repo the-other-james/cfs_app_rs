@@ -23,7 +23,7 @@ const RUST_HK_TLM_MID : uint16 = 0x18fA;
 
 const RUST_CMD_PIPE_DEPTH : uint16 = 10;
 
-const RUST_CMD_PIPE_NAME : &str = "RustTlm";
+const RUST_CMD_PIPE_NAME : &str = "RustTlm\n";
 
 const RUST_SEND_HK_MID : uint16 = 0x18f9;
 
