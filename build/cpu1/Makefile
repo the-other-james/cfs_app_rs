@@ -104,6 +104,7 @@ export CFS_APP_EXE_TYPE:=so
 #===============================================================================
 
 all:: cfs_envs cfs_inbuild cfs_postbuild
+	cp cfe_es_startup.scr exe/cf/apps/
 
 config:: cfs_envs cfs_prebuild cfs_tool
 
