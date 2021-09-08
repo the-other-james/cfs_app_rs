@@ -8,10 +8,10 @@ name="rust"
 crate-type=["cdylib"]
 
 [build-dependencies]
-bindgen="0.26.3"
+bindgen="0.56.0"
 
 [dependencies]
-cfs-sys = { path = "/home/noah/Documents/cfs-sys" }
+cfs-sys = { path = "/host/cfs-sys" }
 
 [profile.release]
 lto=true
